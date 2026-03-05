@@ -13,6 +13,8 @@ public final class SuperKaas extends JavaPlugin {
 
 //        EventManager eventManager = new EventManager(mainConfigHandler, clanService);
 
+//        ClanCommands clanCommands = new ClanCommands(this, logger, clanService, messageFormatter);
+
         // Setup configuration files
 //        configHandlers = new IConfigHandler[] { mainConfigHandler };
 //        for (IConfigHandler configHandler : configHandlers) {
@@ -20,6 +22,7 @@ public final class SuperKaas extends JavaPlugin {
 //        }
 
         // Registrations
+//        clanCommands.registerCommands();
 //        getServer().getPluginManager().registerEvents(eventManager, this);
 
         getLogger().info("Plugin enabled!");
