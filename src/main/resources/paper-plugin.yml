@@ -1,0 +1,9 @@
+name: SuperKaas
+version: '1.0'
+main: bas.pennings.superKaas.SuperKaas
+api-version: '1.21'
+prefix: SuperKaas
+load: STARTUP
+authors: [ Bas Pennings ]
+description: A Minecraft plugin that adds supernatural player classes with unique abilities, creating PvP and roleplay gameplay around creatures and those who hunt them.
+website: https://github.com/Bazzeman/SuperKaas
