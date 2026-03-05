@@ -11,11 +11,16 @@ public final class SuperKaas extends JavaPlugin {
     public void onEnable() {
 //        MainConfigHandler mainConfigHandler = new MainConfigHandler(this);
 
+//        EventManager eventManager = new EventManager(mainConfigHandler, clanService);
+
         // Setup configuration files
 //        configHandlers = new IConfigHandler[] { mainConfigHandler };
 //        for (IConfigHandler configHandler : configHandlers) {
 //            configHandler.setupConfig();
 //        }
+
+        // Registrations
+//        getServer().getPluginManager().registerEvents(eventManager, this);
 
         getLogger().info("Plugin enabled!");
     }
