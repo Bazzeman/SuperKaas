@@ -7,10 +7,14 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public final class SuperKaas extends JavaPlugin {
 
+    public static SuperKaas instance;
+
     private IConfigHandler[] configHandlers;
 
     @Override
     public void onEnable() {
+        instance = this;
+
 //        MainConfigHandler mainConfigHandler = new MainConfigHandler(this);
         MessagesConfigHandler messagesConfigHandler = new MessagesConfigHandler(this, getLogger());
 
